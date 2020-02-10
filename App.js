@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import {Alert, Button, StyleSheet, Text, View, Image} from 'react-native';
 import DocumentPicker from 'react-native-document-picker';
 import Share from 'react-native-share';
-import RNFetchBlob from 'rn-fetch-blob';
 import RNFS from 'react-native-fs';
 
 function getErrorString(error, defaultValue) {
